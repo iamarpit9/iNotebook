@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Prompt:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 10px 0;
+  margin-top: -60px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.col {
+  width: 33%;
+  padding: 15px;
+}
+
+.card-body {
+  height: 200px;
+  padding: 3%;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: left;
+  overflow: auto;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+.card-body h5 {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.card-body p {
+  font-size: 18px;
+  text-align: left;
+}
+
+.card-title{
+  font-family: 'Prompt', sans-serif;
+
+}
+
+.card-text{
+  font-family: 'Merriweather', serif;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  height: auto;
+}
+
+.flex i {
+  padding: 10px 10px;
+}
+
+.fas {
+  color: red;
+  cursor: pointer;
+}
+
+.fas:hover {
+  color: black;
+}
+
+.far {
+  color: blue;
+  cursor: pointer;
+}
+
+.far:hover {
+  color: black;
+}

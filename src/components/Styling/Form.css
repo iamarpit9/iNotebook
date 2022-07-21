@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+
+}
+
+.container {
+  width: 350px;
+  height: 270px;
+  margin: 150px auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+
+.container h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+textarea {
+  resize: none;
+}
+form input {
+  width: 300px;
+}
+form label {
+  font-family: "Ubuntu", sans-serif;
+}
+form textarea{
+  width: 300px;
+  font-family: inherit;
+font-weight: inherit;}
+
+.inp{
+    padding: 10px;
+}
+
+.inp input {
+    border: 1px solid black;
+}
+
+.inp input:focus{
+    border: 1px solid white;
+}
+
+.textArea{
+padding: 10px;
+
+}
+
+.textArea textarea{
+  border: 1px solid black;
+
+}
+
+.textArea textarea:focus{
+    border: 1px solid white;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  background-color: white;
+  color: skyblue;
+  border: 1px solid skyblue;
+}
